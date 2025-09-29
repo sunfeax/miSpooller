@@ -4,6 +4,7 @@ public class UsuarioBean {
 
     private Long id;
     private String username;
+    private String password;
     private String nombre;
     private String apellido1;
     private String apellido2;
@@ -32,6 +33,14 @@ public class UsuarioBean {
         this.username = username;
     }
 
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
     public String getNombre() {
         return nombre;
     }
@@ -55,5 +64,4 @@ public class UsuarioBean {
     public void setApellido2(String apellido2) {
         this.apellido2 = apellido2;
     }
-
 }
