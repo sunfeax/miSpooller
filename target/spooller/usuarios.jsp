@@ -39,7 +39,7 @@ uri="http://java.sun.com/jsp/jstl/core" %>
           </thead>
           <tbody>
             <c:forEach var="usuario" items="${usuarios}">
-              <tr>
+              <tr class="user-row" data-href="usuario?operation=user&id=${usuario.id}" style="cursor:pointer;">
                 <td>${usuario.id}</td>
                 <td>${usuario.username}</td>
                 <td>${usuario.nombre}</td>
@@ -110,6 +110,9 @@ uri="http://java.sun.com/jsp/jstl/core" %>
         </table>
       </div>
 
+    <div class="mt-4">
+  <a href="index.jsp" class="btn btn-secondary"><i class="bi bi-arrow-left"></i> Volver</a>
+    </div>
     <!-- Modal для подтверждения удаления пользователя -->
     <div class="modal fade" id="deleteUserModal" tabindex="-1" aria-labelledby="deleteUserModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -257,6 +260,15 @@ uri="http://java.sun.com/jsp/jstl/core" %>
           document.getElementById('editNombre').value = button.getAttribute('data-nombre');
           document.getElementById('editApellido1').value = button.getAttribute('data-apellido1');
           document.getElementById('editApellido2').value = button.getAttribute('data-apellido2');
+        });
+
+        // Сделать всю строку таблицы кликабельной
+        document.querySelectorAll('.user-row').forEach(function(row) {
+          row.addEventListener('click', function(e) {
+            // Не переходить по ссылке, если клик по кнопке
+            if (e.target.closest('button')) return;
+            window.location.href = row.getAttribute('data-href');
+          });
         });
       });
     </script>

@@ -1,8 +1,8 @@
-c:\Users\Vladi\Desktop\DAW\DAW2\Entorno Servidor\miSpooller\src\main\java\net\ausiasmarch\service\UsuarioService.java
-c:\Users\Vladi\Desktop\DAW\DAW2\Entorno Servidor\miSpooller\src\main\java\net\ausiasmarch\controller\UsuarioController.java
-c:\Users\Vladi\Desktop\DAW\DAW2\Entorno Servidor\miSpooller\src\main\java\net\ausiasmarch\connection\AppConextListener.java
-c:\Users\Vladi\Desktop\DAW\DAW2\Entorno Servidor\miSpooller\src\main\java\net\ausiasmarch\dao\UsuarioDao.java
-c:\Users\Vladi\Desktop\DAW\DAW2\Entorno Servidor\miSpooller\src\main\java\net\ausiasmarch\model\UsuarioBean.java
-c:\Users\Vladi\Desktop\DAW\DAW2\Entorno Servidor\miSpooller\src\main\java\net\ausiasmarch\connection\DatabaseParameters.java
-c:\Users\Vladi\Desktop\DAW\DAW2\Entorno Servidor\miSpooller\src\main\java\net\ausiasmarch\connection\HikariPool.java
-c:\Users\Vladi\Desktop\DAW\DAW2\Entorno Servidor\miSpooller\src\main\java\net\ausiasmarch\exception\ResourceNotFoundException.java
+/home/a13503782/DAW2/Entorno Servidor/miSpooller/src/main/java/net/ausiasmarch/service/UsuarioService.java
+/home/a13503782/DAW2/Entorno Servidor/miSpooller/src/main/java/net/ausiasmarch/exception/ResourceNotFoundException.java
+/home/a13503782/DAW2/Entorno Servidor/miSpooller/src/main/java/net/ausiasmarch/connection/HikariPool.java
+/home/a13503782/DAW2/Entorno Servidor/miSpooller/src/main/java/net/ausiasmarch/model/UsuarioBean.java
+/home/a13503782/DAW2/Entorno Servidor/miSpooller/src/main/java/net/ausiasmarch/dao/UsuarioDao.java
+/home/a13503782/DAW2/Entorno Servidor/miSpooller/src/main/java/net/ausiasmarch/controller/UsuarioController.java
+/home/a13503782/DAW2/Entorno Servidor/miSpooller/src/main/java/net/ausiasmarch/connection/DatabaseParameters.java
+/home/a13503782/DAW2/Entorno Servidor/miSpooller/src/main/java/net/ausiasmarch/connection/AppConextListener.java
